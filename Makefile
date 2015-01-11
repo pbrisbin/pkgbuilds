@@ -10,6 +10,7 @@ pkgver:
 
 pkgsums:
 	updpkgsums
+	chmod 644 PKGBUILD # https://bugs.archlinux.org/task/43272
 
 release: pkgver pkgsums
 	mkaurball
